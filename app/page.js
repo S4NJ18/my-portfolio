@@ -362,7 +362,7 @@ const Home = () => {
 
                 <div className="transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-md rounded-lg border border-[#e6e8eb] pt-0 pb-8 flex flex-col gap-8 justify-center items-center bg-white">
                   <img
-                    src="/my-portfolio/Ultimate Toggle Plugins.webp"
+                    src="/my-portfolio/Ultimate Toggle Plugins.jpeg"
                     alt="Card image"
                     className="rounded-t-lg w-full h-[248px] object-cover"
                   />
