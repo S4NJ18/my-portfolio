@@ -167,7 +167,7 @@ const Home = () => {
                       </span>
                     </Link>
 
-                    <Link href={"mailto:sanjib9051@gmail.com"}
+                    <Link href={"mailto:sanjib90511@gmail.com"}
                       type="button"
                       data-twe-ripple-init
                       data-twe-ripple-color="light"
