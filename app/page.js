@@ -293,10 +293,8 @@ const Home = () => {
                         management.
                       </small>
                     </div>
-                    <Link 
-                          href={"https://headless-wp-next-js-app.vercel.app/"}
-                      target="_blank">
-className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
+                    <Link href={"https://headless-wp-next-js-app.vercel.app/"} target="_blank" 
+                          className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
                       <p className="text-base text-[#a53dff] font-semibold">
                         See Preview
                       </p>
