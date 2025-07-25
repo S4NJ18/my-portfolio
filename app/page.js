@@ -1,6 +1,50 @@
+import type { Metadata } from 'next';
 import SkillsCard from "@/component/SkillCard";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: 'Full-Stack Developer | WordPress & MERN Stack Expert',
+  description: 'I’m a Full-Stack Developer with 3+ years of experience in WordPress performance tuning, WooCommerce, and MERN stack development. Skilled in backend logic, API development, JWT auth, and modern front-end using React and Next.js.',
+  keywords: [
+    'Full-Stack Developer',
+    'WordPress Performance',
+    'MERN Stack',
+    'React',
+    'Next.js',
+    'Node.js',
+    'WooCommerce',
+    'API Development',
+    'JWT Authentication',
+    'Web Developer Portfolio',
+  ],
+  authors: [{ name: 'Sanjib Mondal', url: 'https://s4nj18.github.io/my-portfolio/' }],
+  openGraph: {
+    title: 'Full-Stack Developer Portfolio | WordPress & MERN Stack Expert',
+    description:
+      'Explore my portfolio showcasing WordPress performance optimization, full-stack development with MERN, and secure, scalable web solutions.',
+    url: 'https://s4nj18.github.io/my-portfolio/',
+    siteName: 'Sanjib Portfolio',
+    images: [
+      {
+        url: '/my-portfolio/Developer.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Portfolio Preview',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Full-Stack Developer Portfolio | WordPress & MERN Expert',
+    description:
+      'Custom themes, WooCommerce, MERN stack, API integration, performance debugging & more.',
+    images: ['/my-portfolio/Developer.jpeg'],
+  },
+  metadataBase: new URL('https://s4nj18.github.io/my-portfolio/'),
+};
+
 
 const Home = () => {
   return (
@@ -103,27 +147,17 @@ const Home = () => {
                 <div className="flex flex-col gap-4 items-start relative">
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-                      Passionate Full-Stack Developer with over 3 years of total
-                      experience, including 8+ months of hands-on backend
-                      development using Node.js, Express.js, EJS, MongoDB, and
-                      MySQL. Skilled in building RESTful APIs, implementing
-                      secure user authentication, and managing JWT-based login
-                      systems.
+                      I’m a passionate Full-Stack Developer with over 3 years of experience, specializing in WordPress performance, backend logic, and modern web technologies. I began my career as a WordPress Developer & Designer, working hands-on with custom themes, WooCommerce integrations, Elementor, and deep performance tuning, including query optimization, caching strategies, and resolving slow site issues.
                     </span>
                   </p>
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-                      On the frontend, experienced with React.js, Next.js, and
-                      basic React Native, creating responsive, interactive UIs.
-                      Also proficient in EJS templating for server-side rendered
-                      apps.
+                      Alongside my WordPress responsibilities, I’ve also been managing a full-stack internal project using the MERN stack (MongoDB, Express.js, React/Next.js, Node.js) for over 8 months. In this role, I’ve built RESTful APIs, implemented JWT authentication, and handled backend logic while developing responsive, API-connected interfaces using React and Next.js with EJS templating.
                     </span>
                   </p>
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-                      Currently focused on leveling up as a Full-Stack
-                      Developer, constantly learning and adapting to modern tech
-                      trends in the MERN stack and beyond.
+Whether debugging performance issues using tools like Grafana and browser DevTools, or analyzing WordPress security concerns, I’m always eager to dig deeper, learn continuously, and solve real-world problems with clean, efficient code.
                     </span>
                   </p>
                 </div>
