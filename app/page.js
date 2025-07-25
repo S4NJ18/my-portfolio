@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import SkillsCard from "@/component/SkillCard";
 import Image from "next/image";
 import Link from "next/link";
