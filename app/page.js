@@ -1,11 +1,10 @@
-import { Metadata } from 'next';
 import SkillsCard from "@/component/SkillCard";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Full-Stack Developer | WordPress & MERN Stack Expert',
-  description: 'I’m a Full-Stack Developer with 3+ years of experience in WordPress performance tuning, WooCommerce, and MERN stack development. Skilled in backend logic, API development, JWT auth, and modern front-end using React and Next.js.',
+  description: 'I’m a Full-Stack Developer with 3+ years of experience in WordPress performance tuning, WooCommerce, and MERN stack development. Skilled in backend logic, API development, JWT auth, and modern front-end using React and Next.js.' ,
   keywords: [
     'Full-Stack Developer',
     'WordPress Performance',
