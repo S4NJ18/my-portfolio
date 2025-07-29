@@ -133,8 +133,7 @@ const Home = () => {
 
           {/* CV DOWNLOAD Section */}
 
-          <div
-            id="about"
+          <div id="about"
             className="mt-8 shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl p-10 flex flex-col md:flex-row gap-[30px] justify-center items-start relative bg-white">
             <div className="md:w-2/2 px-4 py-10">
               <div className="flex flex-col gap-1 items-start relative">
@@ -439,11 +438,8 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                     </Link>
                   </div>
                 </div>
-              </div>
-            </div>
 
-
-
+                
                 <div className="transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-md rounded-lg border border-[#e6e8eb] pt-0 pb-8 flex flex-col gap-8 justify-center items-center bg-white">
                   <img
                     src="/screenshot.png"
@@ -491,6 +487,13 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                 </div>
               </div>
             </div>
+
+
+
+
+
+              </div>
+            </div>
             {/* <button className=" rounded px-6 py-3 flex gap-3 items-center bg-[#a53dff] hover:bg-[#8a1bd9] transition-colors duration-300">
               <p className="text-base text-white font-semibold">More Project</p>
             </button> */}
@@ -533,8 +536,6 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
 
           {/* Eduaction */}
         </div>
-      </div>
-    </div>
   );
 };
 
