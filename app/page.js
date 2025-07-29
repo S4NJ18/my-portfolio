@@ -17,16 +17,16 @@ export const metadata = {
     'JWT Authentication',
     'Web Developer Portfolio',
   ],
-  authors: [{ name: 'Sanjib Mondal', url: 'https://s4nj18.github.io/my-portfolio/' }],
+  authors: [{ name: 'Sanjib Mondal', url: 'https://www.sanjibmondal.com/' }],
   openGraph: {
     title: 'Full-Stack Developer Portfolio | WordPress & MERN Stack Expert',
     description:
       'Explore my portfolio showcasing WordPress performance optimization, full-stack development with MERN, and secure, scalable web solutions.',
-    url: 'https://s4nj18.github.io/my-portfolio/',
+    url: 'https://www.sanjibmondal.com/',
     siteName: 'Sanjib Portfolio',
     images: [
       {
-        url: '/my-portfolio/Developer.jpeg',
+        url: '/Developer.jpeg',
         width: 1200,
         height: 630,
         alt: 'Portfolio Preview',
@@ -39,9 +39,9 @@ export const metadata = {
     title: 'Full-Stack Developer Portfolio | WordPress & MERN Expert',
     description:
       'Custom themes, WooCommerce, MERN stack, API integration, performance debugging & more.',
-    images: ['/my-portfolio/Developer.jpeg'],
+    images: ['/Developer.jpeg'],
   },
-  metadataBase: new URL('https://s4nj18.github.io/my-portfolio/'),
+  metadataBase: new URL('https://www.sanjibmondal.com/'),
 };
 
 
@@ -396,7 +396,7 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
 
                 <div className="transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-md rounded-lg border border-[#e6e8eb] pt-0 pb-8 flex flex-col gap-8 justify-center items-center bg-white">
                   <img
-                    src="/my-portfolio/Ultimate Toggle plugins.jpeg"
+                    src="/Ultimate Toggle plugins.jpeg"
                     alt="Card image"
                     className="rounded-t-lg w-full h-[248px] object-cover"
                   />
@@ -408,6 +408,56 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                         </small>
                         <p className="text-lg text-[#132238] font-semibold">
                           Ultra Toggle / FAQ Plugin
+                        </p>
+                      </div>
+                      <small className="text-sm text-[#556070] font-normal">
+                        A stylish, collapsible FAQ plugin for WordPress with
+                        shortcode support, customization options. Developed with
+                        simplicity and flexibility in mind.
+                      </small>
+                    </div>
+                    <Link
+                      href={
+                        "https://github.com/S4NJ18/WP-Plugins-Ultra-Toggle-FAQ-Plugin"
+                      }
+                      target="_blank"
+                      className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
+                      <p className="text-base text-[#a53dff] font-semibold">
+                        Open Project
+                      </p>
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.92 11.6202C17.8724 11.4974 17.801 11.3853 17.71 11.2902L12.71 6.29019C12.6168 6.19695 12.5061 6.12299 12.3842 6.07253C12.2624 6.02207 12.1319 5.99609 12 5.99609C11.7337 5.99609 11.4783 6.10188 11.29 6.29019C11.1968 6.38342 11.1228 6.49411 11.0723 6.61594C11.0219 6.73776 10.9959 6.86833 10.9959 7.00019C10.9959 7.26649 11.1017 7.52188 11.29 7.71019L14.59 11.0002H7C6.73478 11.0002 6.48043 11.1055 6.29289 11.2931C6.10536 11.4806 6 11.735 6 12.0002C6 12.2654 6.10536 12.5198 6.29289 12.7073C6.48043 12.8948 6.73478 13.0002 7 13.0002H14.59L11.29 16.2902C11.1963 16.3831 11.1219 16.4937 11.0711 16.6156C11.0203 16.7375 10.9942 16.8682 10.9942 17.0002C10.9942 17.1322 11.0203 17.2629 11.0711 17.3848C11.1219 17.5066 11.1963 17.6172 11.29 17.7102C11.383 17.8039 11.4936 17.8783 11.6154 17.9291C11.7373 17.9798 11.868 18.006 12 18.006C12.132 18.006 12.2627 17.9798 12.3846 17.9291C12.5064 17.8783 12.617 17.8039 12.71 17.7102L17.71 12.7102C17.801 12.6151 17.8724 12.5029 17.92 12.3802C18.02 12.1367 18.02 11.8636 17.92 11.6202Z"
+                          fill="#A53DFF"
+                        />
+                      </svg>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+                <div className="transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-md rounded-lg border border-[#e6e8eb] pt-0 pb-8 flex flex-col gap-8 justify-center items-center bg-white">
+                  <img
+                    src="/screenshot.png"
+                    alt="Card image"
+                    className="rounded-t-lg w-full h-[248px] object-cover"
+                  />
+                  <div className="flex flex-col gap-5 items-start px-4">
+                    <div className="flex flex-col gap-3 items-start">
+                      <div className="flex flex-col gap-1 items-start">
+                        <small className="text-xs text-[#87909d] font-medium">
+                          WordPress Plugin
+                        </small>
+                        <p className="text-lg text-[#132238] font-semibold">
+                         Custom WordPress Theme Development
                         </p>
                       </div>
                       <small className="text-sm text-[#556070] font-normal">
