@@ -79,7 +79,9 @@ const NavbarComponent = () => {
                 onClick={handleClose}
                 className="rounded px-6 py-3 flex gap-3 justify-center items-center bg-[#a53dff] w-full md:w-auto">
                 <p className="text-base leading-6 text-white font-semibold">
-                  Contact
+                  <Link href="https://drive.google.com/file/d/1-0h-eshMycQJzn4GWVBt63U2J7ZeWKUT/view?usp=sharing">
+                    My Resume
+                  </Link>
                 </p>
               </button>
             </div>
