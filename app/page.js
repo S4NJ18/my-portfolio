@@ -122,7 +122,7 @@ const Home = () => {
               {/* You can add an image or illustration here */}
 
               <Image
-                src="/my-portfolio/Developer.jpeg"
+                src="/Developer.jpeg"
                 alt="Sanjib Mondal"
                 width={400}
                 height={400}
