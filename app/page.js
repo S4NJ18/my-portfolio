@@ -3,47 +3,47 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Full-Stack Developer | WordPress & MERN Stack Expert',
-  description: 'I’m a Full-Stack Developer with 3+ years of experience in WordPress performance tuning, WooCommerce, and MERN stack development. Skilled in backend logic, API development, JWT auth, and modern front-end using React and Next.js.' ,
+  title: "Full-Stack Developer | WordPress & MERN Stack Expert",
+  description:
+    "I’m a Full-Stack Developer with 3+ years of experience in WordPress performance tuning, WooCommerce, and MERN stack development. Skilled in backend logic, API development, JWT auth, and modern front-end using React and Next.js.",
   keywords: [
-    'Full-Stack Developer',
-    'WordPress Performance',
-    'MERN Stack',
-    'React',
-    'Next.js',
-    'Node.js',
-    'WooCommerce',
-    'API Development',
-    'JWT Authentication',
-    'Web Developer Portfolio',
+    "Full-Stack Developer",
+    "WordPress Performance",
+    "MERN Stack",
+    "React",
+    "Next.js",
+    "Node.js",
+    "WooCommerce",
+    "API Development",
+    "JWT Authentication",
+    "Web Developer Portfolio",
   ],
-  authors: [{ name: 'Sanjib Mondal', url: 'https://www.sanjibmondal.com/' }],
+  authors: [{ name: "Sanjib Mondal", url: "https://www.sanjibmondal.com/" }],
   openGraph: {
-    title: 'Full-Stack Developer Portfolio | WordPress & MERN Stack Expert',
+    title: "Full-Stack Developer Portfolio | WordPress & MERN Stack Expert",
     description:
-      'Explore my portfolio showcasing WordPress performance optimization, full-stack development with MERN, and secure, scalable web solutions.',
-    url: 'https://www.sanjibmondal.com/',
-    siteName: 'Sanjib Portfolio',
+      "Explore my portfolio showcasing WordPress performance optimization, full-stack development with MERN, and secure, scalable web solutions.",
+    url: "https://www.sanjibmondal.com/",
+    siteName: "Sanjib Portfolio",
     images: [
       {
-        url: '/Developer.jpeg',
+        url: "/Developer.jpeg",
         width: 1200,
         height: 630,
-        alt: 'Portfolio Preview',
+        alt: "Portfolio Preview",
       },
     ],
-    type: 'website',
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Full-Stack Developer Portfolio | WordPress & MERN Expert',
+    card: "summary_large_image",
+    title: "Full-Stack Developer Portfolio | WordPress & MERN Expert",
     description:
-      'Custom themes, WooCommerce, MERN stack, API integration, performance debugging & more.',
-    images: ['/Developer.jpeg'],
+      "Custom themes, WooCommerce, MERN stack, API integration, performance debugging & more.",
+    images: ["/Developer.jpeg"],
   },
-  metadataBase: new URL('https://www.sanjibmondal.com/'),
+  metadataBase: new URL("https://www.sanjibmondal.com/"),
 };
-
 
 const Home = () => {
   return (
@@ -133,7 +133,8 @@ const Home = () => {
 
           {/* CV DOWNLOAD Section */}
 
-          <div id="about"
+          <div
+            id="about"
             className="mt-8 shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl p-10 flex flex-col md:flex-row gap-[30px] justify-center items-start relative bg-white">
             <div className="md:w-2/2 px-4 py-10">
               <div className="flex flex-col gap-1 items-start relative">
@@ -145,17 +146,33 @@ const Home = () => {
                 <div className="flex flex-col gap-4 items-start relative">
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-                      I’m a passionate Full-Stack Developer with over 3 years of experience, specializing in WordPress performance, backend logic, and modern web technologies. I began my career as a WordPress Developer & Designer, working hands-on with custom themes, WooCommerce integrations, Elementor, and deep performance tuning, including query optimization, caching strategies, and resolving slow site issues.
+                      I’m a passionate Full-Stack Developer with over 3 years of
+                      experience, specializing in WordPress performance, backend
+                      logic, and modern web technologies. I began my career as a
+                      WordPress Developer & Designer, working hands-on with
+                      custom themes, WooCommerce integrations, Elementor, and
+                      deep performance tuning, including query optimization,
+                      caching strategies, and resolving slow site issues.
                     </span>
                   </p>
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-                      Alongside my WordPress responsibilities, I’ve also been managing a full-stack internal project using the MERN stack (MongoDB, Express.js, React/Next.js, Node.js) for over 8 months. In this role, I’ve built RESTful APIs, implemented JWT authentication, and handled backend logic while developing responsive, API-connected interfaces using React and Next.js with EJS templating.
+                      Alongside my WordPress responsibilities, I’ve also been
+                      managing a full-stack internal project using the MERN
+                      stack (MongoDB, Express.js, React/Next.js, Node.js) for
+                      over 8 months. In this role, I’ve built RESTful APIs,
+                      implemented JWT authentication, and handled backend logic
+                      while developing responsive, API-connected interfaces
+                      using React and Next.js with EJS templating.
                     </span>
                   </p>
                   <p className="text-lg leading-6 text-[#556070]">
                     <span className="text-[#556070] text-lg font-normal">
-Whether debugging performance issues using tools like Grafana and browser DevTools, or analyzing WordPress security concerns, I’m always eager to dig deeper, learn continuously, and solve real-world problems with clean, efficient code.
+                      Whether debugging performance issues using tools like
+                      Grafana and browser DevTools, or analyzing WordPress
+                      security concerns, I’m always eager to dig deeper, learn
+                      continuously, and solve real-world problems with clean,
+                      efficient code.
                     </span>
                   </p>
                 </div>
@@ -168,7 +185,11 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                 <div className="flex gap-4 mt-2">
                   <div className="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
                     {/* <!-- Linkedin --> */}
-                    <Link href={"https://www.linkedin.com/in/sanjib-mondal-031995223/"} target="_blank"
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/sanjib-mondal-031995223/"
+                      }
+                      target="_blank"
                       type="button"
                       data-twe-ripple-init
                       data-twe-ripple-color="light"
@@ -184,7 +205,9 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                     </Link>
 
                     {/* Github */}
-                    <Link href={"https://github.com/S4NJ18"} target="_blank"
+                    <Link
+                      href={"https://github.com/S4NJ18"}
+                      target="_blank"
                       type="button"
                       data-twe-ripple-init
                       data-twe-ripple-color="light"
@@ -199,7 +222,8 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                       </span>
                     </Link>
 
-                    <Link href={"mailto:sanjib90511@gmail.com"}
+                    <Link
+                      href={"mailto:sanjib90511@gmail.com"}
                       type="button"
                       data-twe-ripple-init
                       data-twe-ripple-color="light"
@@ -263,7 +287,7 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                     </svg>
                     <Link
                       href={
-                        "https://drive.google.com/file/d/1jtM57QsV93N2cIDwrN9QVP6MxicvfrL1/view?usp=sharing"
+                        "https://drive.google.com/file/d/1-0h-eshMycQJzn4GWVBt63U2J7ZeWKUT/view?usp=sharing"
                       }
                       className="text-base leading-6 text-[#a53dff]">
                       <span className="text-[#a53dff] text-base font-semibold">
@@ -325,8 +349,10 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                         management.
                       </small>
                     </div>
-                    <Link href={"https://headless-wp-next-js-app.vercel.app/"} target="_blank" 
-                          className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
+                    <Link
+                      href={"https://headless-wp-next-js-app.vercel.app/"}
+                      target="_blank"
+                      className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
                       <p className="text-base text-[#a53dff] font-semibold">
                         See Preview
                       </p>
@@ -439,7 +465,6 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                   </div>
                 </div>
 
-                
                 <div className="transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-md rounded-lg border border-[#e6e8eb] pt-0 pb-8 flex flex-col gap-8 justify-center items-center bg-white">
                   <img
                     src="/screenshot.png"
@@ -450,21 +475,22 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                     <div className="flex flex-col gap-3 items-start">
                       <div className="flex flex-col gap-1 items-start">
                         <small className="text-xs text-[#87909d] font-medium">
-                          WordPress Plugin
+                          WordPress Theme
                         </small>
                         <p className="text-lg text-[#132238] font-semibold">
-                         Custom WordPress Theme Development
+                          Custom WordPress Theme Development
                         </p>
                       </div>
                       <small className="text-sm text-[#556070] font-normal">
-                        A stylish, collapsible FAQ plugin for WordPress with
-                        shortcode support, customization options. Developed with
-                        simplicity and flexibility in mind.
+                        Converted a static HTML template into a fully
+                        functional, dynamic WordPress theme. Ensured
+                        compatibility with WordPress coding standards,
+                        responsiveness, and plugin flexibility.
                       </small>
                     </div>
                     <Link
                       href={
-                        "https://github.com/S4NJ18/WP-Plugins-Ultra-Toggle-FAQ-Plugin"
+                        "https://github.com/S4NJ18/Wordpress-Theme-Development"
                       }
                       target="_blank"
                       className="rounded border border-[#a53dff] px-6 py-3 flex gap-3 items-center bg-white">
@@ -487,55 +513,50 @@ Whether debugging performance issues using tools like Grafana and browser DevToo
                 </div>
               </div>
             </div>
-
-
-
-
-
-              </div>
-            </div>
-            {/* <button className=" rounded px-6 py-3 flex gap-3 items-center bg-[#a53dff] hover:bg-[#8a1bd9] transition-colors duration-300">
+          </div>
+        </div>
+        {/* <button className=" rounded px-6 py-3 flex gap-3 items-center bg-[#a53dff] hover:bg-[#8a1bd9] transition-colors duration-300">
               <p className="text-base text-white font-semibold">More Project</p>
             </button> */}
-          </div>
+      </div>
 
-          {/* Let's Work Together */}
+      {/* Let's Work Together */}
 
-          <div className=" shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl py-[50px] flex flex-col gap-[20px] justify-end items-center relative w-full bg-[#132238]">
-            <h1 className="text-5xl leading-[56px] text-center text-white">
-              <span className="text-white text-5xl font-semibold">
-                Do you have Project Idia? Let’s discuss your project!
-              </span>
-            </h1>
-            <p className="text-lg leading-6 pl-20 pr-20 text-center text-[#a5acb5]">
-              <span className="text-[#a5acb5] text-lg font-normal">
-                I’m always open to exciting collaborations and creative
-                challenges. Whether you’re starting from scratch or improving an
-                existing product, I’d love to hear more about it.
-              </span>
-            </p>
-            <button className="rounded px-6 py-3 flex gap-3 justify-center items-center relative bg-[#a53dff]">
-              <p className="text-base leading-6 text-white">
-                <span className="text-white text-base font-semibold">
-                  Let’s work Together
-                </span>
-              </p>
-              <svg
-                width="25"
-                height="24"
-                viewBox="0 0 25 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.42 11.6202C18.3724 11.4974 18.301 11.3853 18.21 11.2902L13.21 6.29019C13.1168 6.19695 13.0061 6.12299 12.8842 6.07253C12.7624 6.02207 12.6319 5.99609 12.5 5.99609C12.2337 5.99609 11.9783 6.10188 11.79 6.29019C11.6968 6.38342 11.6228 6.49411 11.5723 6.61594C11.5219 6.73776 11.4959 6.86833 11.4959 7.00019C11.4959 7.26649 11.6017 7.52188 11.79 7.71019L15.09 11.0002H7.5C7.23478 11.0002 6.98043 11.1055 6.79289 11.2931C6.60536 11.4806 6.5 11.735 6.5 12.0002C6.5 12.2654 6.60536 12.5198 6.79289 12.7073C6.98043 12.8948 7.23478 13.0002 7.5 13.0002H15.09L11.79 16.2902C11.6963 16.3831 11.6219 16.4937 11.5711 16.6156C11.5203 16.7375 11.4942 16.8682 11.4942 17.0002C11.4942 17.1322 11.5203 17.2629 11.5711 17.3848C11.6219 17.5066 11.6963 17.6172 11.79 17.7102C11.883 17.8039 11.9936 17.8783 12.1154 17.9291C12.2373 17.9798 12.368 18.006 12.5 18.006C12.632 18.006 12.7627 17.9798 12.8846 17.9291C13.0064 17.8783 13.117 17.8039 13.21 17.7102L18.21 12.7102C18.301 12.6151 18.3724 12.5029 18.42 12.3802C18.52 12.1367 18.52 11.8636 18.42 11.6202Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
-          </div>
+      <div className=" shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl py-[50px] flex flex-col gap-[20px] justify-end items-center relative w-full bg-[#132238]">
+        <h1 className="text-5xl leading-[56px] text-center text-white">
+          <span className="text-white text-5xl font-semibold">
+            Do you have Project Idia? Let’s discuss your project!
+          </span>
+        </h1>
+        <p className="text-lg leading-6 pl-20 pr-20 text-center text-[#a5acb5]">
+          <span className="text-[#a5acb5] text-lg font-normal">
+            I’m always open to exciting collaborations and creative challenges.
+            Whether you’re starting from scratch or improving an existing
+            product, I’d love to hear more about it.
+          </span>
+        </p>
+        <button className="rounded px-6 py-3 flex gap-3 justify-center items-center relative bg-[#a53dff]">
+          <p className="text-base leading-6 text-white">
+            <span className="text-white text-base font-semibold">
+              Let’s work Together
+            </span>
+          </p>
+          <svg
+            width="25"
+            height="24"
+            viewBox="0 0 25 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.42 11.6202C18.3724 11.4974 18.301 11.3853 18.21 11.2902L13.21 6.29019C13.1168 6.19695 13.0061 6.12299 12.8842 6.07253C12.7624 6.02207 12.6319 5.99609 12.5 5.99609C12.2337 5.99609 11.9783 6.10188 11.79 6.29019C11.6968 6.38342 11.6228 6.49411 11.5723 6.61594C11.5219 6.73776 11.4959 6.86833 11.4959 7.00019C11.4959 7.26649 11.6017 7.52188 11.79 7.71019L15.09 11.0002H7.5C7.23478 11.0002 6.98043 11.1055 6.79289 11.2931C6.60536 11.4806 6.5 11.735 6.5 12.0002C6.5 12.2654 6.60536 12.5198 6.79289 12.7073C6.98043 12.8948 7.23478 13.0002 7.5 13.0002H15.09L11.79 16.2902C11.6963 16.3831 11.6219 16.4937 11.5711 16.6156C11.5203 16.7375 11.4942 16.8682 11.4942 17.0002C11.4942 17.1322 11.5203 17.2629 11.5711 17.3848C11.6219 17.5066 11.6963 17.6172 11.79 17.7102C11.883 17.8039 11.9936 17.8783 12.1154 17.9291C12.2373 17.9798 12.368 18.006 12.5 18.006C12.632 18.006 12.7627 17.9798 12.8846 17.9291C13.0064 17.8783 13.117 17.8039 13.21 17.7102L18.21 12.7102C18.301 12.6151 18.3724 12.5029 18.42 12.3802C18.52 12.1367 18.52 11.8636 18.42 11.6202Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
 
-          {/* Eduaction */}
-        </div>
+      {/* Eduaction */}
+    </div>
   );
 };
 
