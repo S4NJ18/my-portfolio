@@ -287,7 +287,7 @@ const Home = () => {
                     </svg>
                     <Link
                       href={
-                        "https://drive.google.com/file/d/1-0h-eshMycQJzn4GWVBt63U2J7ZeWKUT/view?usp=sharing"
+                        "https://drive.google.com/file/d/1OZdNEOScppWulfr0eSl4KuuHBiZK6pZZ/view"
                       }
                       className="text-base leading-6 text-[#a53dff]">
                       <span className="text-[#a53dff] text-base font-semibold">
