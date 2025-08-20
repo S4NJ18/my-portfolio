@@ -135,9 +135,9 @@ const Home = () => {
 
           <div
             id="about"
-            className="mt-8 shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl p-10 flex flex-col md:flex-row gap-[30px] justify-center items-start relative bg-white">
+            className="mt-8 shadow-[0px_36px_105px_0px_rgba(0.16862745583057404,0.21960780024528503,0.2980392277240753,0.10)] rounded-2xl p-10 flex flex-col md:flex-row gap-[30px] justify-center md:items-start relative bg-white">
             <div className="md:w-2/2 px-4 py-10">
-              <div className="flex flex-col gap-1 md:items-start relative">
+              <div className="flex flex-col gap-1 relative">
                 <h1 className="text-[38px] leading-[50px] text-[#132238]">
                   <span className="text-[#132238] text-[38px] font-semibold">
                     About Me
