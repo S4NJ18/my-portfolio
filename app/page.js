@@ -262,7 +262,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-4 items-start relative">
+                <div className="flex flex-col gap-4 items-start relative md:flex-row">
                   <button className="rounded px-6 py-3 flex gap-3 justify-center items-center relative bg-[#a53dff]">
                     <Link
                       href="https://github.com/S4NJ18"
